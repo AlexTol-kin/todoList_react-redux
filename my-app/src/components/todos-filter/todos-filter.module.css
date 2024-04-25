@@ -1,0 +1,14 @@
+.buttonFilter {
+	padding: 0;
+	width: 100px;
+	border: none;
+	transform-origin: center;
+	font-family: 'Gochi Hand', cursive;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 hsl(198, 1%, 29%);
+	background-color: hsla(167, 19%, 80%, 0.7);
+	float: left;
+	margin-left: 10px;
+}

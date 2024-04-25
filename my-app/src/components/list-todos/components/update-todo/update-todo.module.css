@@ -1,0 +1,14 @@
+.button {
+	margin-right: 10px;
+	padding: 0;
+	border: none;
+	transform: rotate(4deg);
+	transform-origin: center;
+	font-family: 'Gochi Hand', cursive;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 hsl(198, 1%, 29%);
+	transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	background-color: hsla(167, 19%, 80%, 0.7);
+}

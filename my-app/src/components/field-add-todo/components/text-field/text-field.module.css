@@ -1,0 +1,23 @@
+.formInput {
+	box-sizing: border-box;
+	background-color: transparent;
+	padding: 0.7rem;
+	border-bottom-right-radius: 15px 3px;
+	border-bottom-left-radius: 3px 15px;
+	border: solid 3px transparent;
+	border-bottom: dashed 3px #323732;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 1rem;
+	color: hsla(127, 88%, 10%, 0.7);
+	width: 70%;
+	margin-bottom: 20px;
+	&:focus {
+		outline: none;
+		border: solid 3px #ea95e0;
+	}
+}
+@media only screen and (min-width: 500px) {
+	.formInput {
+		width: 60%;
+	}
+}
